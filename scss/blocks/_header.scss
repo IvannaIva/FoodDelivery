@@ -1,0 +1,100 @@
+.header {
+  &-nav {
+    padding: 27px 40px 27px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo {
+  width: 246px;
+  height: 102px;
+  padding: 0px 20px 0px 20px;
+}
+.logo-mobile {
+  display: none;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  column-gap: 94px;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+.nav-item {
+  padding: 10px;
+}
+.nav-link {
+  color: black;
+
+  &.active {
+    color: $accent;
+  }
+}
+.nav__button {
+  display: none;
+}
+
+.header-row {
+  height: 674px;
+}
+.header-img {
+ // width: 1440px;
+  height: 619px;
+
+  background-image: url("../../img/header/Rectangle\ 48.png");
+}
+
+.header-content {
+  padding-top: 73px;
+  text-align: center;
+}
+
+.header-text {
+  width: 1005px;
+  margin: 0 auto;
+
+  color: #f6f6f6;
+}
+
+.header-text h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+
+  padding-bottom: 17px;
+}
+
+.header-text h4 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+
+.header-title {
+  padding-left: 34px;
+
+  font-family: Poppins;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+
+  padding-bottom: 27px;
+}
+
+.header-buttons-row {
+  padding-top: 54px;
+  display: flex;
+  column-gap: 34px;
+  justify-content: center;
+}

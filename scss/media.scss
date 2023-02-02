@@ -1,0 +1,411 @@
+@import "./base/vars";
+
+@media (max-width: 1024px) {
+  .logo {
+    padding: 0;
+  }
+  .header-nav {
+    padding: 10px 20px 10px 35px;
+  }
+  .header-text {
+    max-width: 700px;
+  }
+  .nav-list {
+    column-gap: 45px;
+  }
+  .header-title {
+    padding-left: 0;
+    font-size: 40px;
+  }
+
+  .line {
+    width: 550px;
+  }
+
+  .create__account__row {
+    padding-bottom: 100px;
+  }
+
+  .create__text {
+    width: 450px;
+  }
+  .title {
+    font-size: 32px;
+  }
+
+  .varieties__row {
+    left: 0;
+  }
+
+  .varieties__text {
+    padding-left: 50px;
+  }
+  .footer-logo {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo {
+    height: 50px;
+  }
+  .logo-link {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+  }
+  .header-nav {
+    padding: 10px 10px 15px 30px;
+  }
+  .nav-list {
+    column-gap: 13px;
+  }
+  .nav-item {
+    padding: 5px;
+  }
+
+  .header-text {
+    max-width: 410px;
+  }
+  .header-title {
+    line-height: 50px;
+  }
+  .header-text h4 {
+    font-size: 22px;
+  }
+  .header-buttons-row {
+    column-gap: 16px;
+  }
+  .button {
+    width: 170px;
+    height: 50px;
+  }
+  .selection-img {
+    position: relative;
+    top: -280px;
+  }
+  .line-text {
+    position: relative;
+    top: -80px;
+  }
+
+  .line {
+    width: 350px;
+    border: 2px solid #e4e4e4;
+  }
+  .create__text {
+    width: 350px;
+  }
+  .create-subtitle {
+    width: 350px;
+  }
+  .steps {
+    padding-bottom: 10px;
+  }
+  .title {
+    line-height: 40px;
+    padding-bottom: 10px;
+  }
+  .create__account__row {
+    padding-bottom: 100px;
+  }
+  .varieties__row {
+    padding-bottom: 50px;
+  }
+  .footer-nav {
+    position: relative;
+    top: -40px;
+  }
+  .footer-row {
+    justify-content: space-evenly;
+  }
+  .footer-logo {
+    display: none;
+  }
+  .footer-icons {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-list {
+    display: none;
+  }
+  .nav__button {
+    display: block;
+    position: fixed;
+    z-index: 5;
+    top: 45px;
+    // padding-right: 30px;
+  }
+
+  .nav.open .nav-list {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+
+    z-index: 1;
+    padding: 45px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: flex-start;
+
+    font-size: 34px;
+  }
+
+  .header {
+    &-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 17px 16px;
+    }
+  }
+  .logo {
+    height: 51px;
+    padding: 0;
+  }
+  .header-img {
+    background-image: none;
+  }
+
+  .header-row {
+    flex-direction: column;
+  }
+
+  .header-buttons-row {
+    width: 418px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .header-content {
+    padding-top: 50px;
+  }
+
+  .header-text {
+    flex-direction: column;
+  }
+
+  .header-text h3 {
+    color: $description-color;
+  }
+
+  .header-text h4 {
+    padding: 0px;
+    width: 342px;
+    height: 76px;
+    color: $description-color;
+    padding-top: 27px;
+    margin: 0 auto;
+  }
+
+  .header-title {
+    padding: 0px;
+    width: 391px;
+    height: 128px;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 42px;
+
+    text-align: center;
+
+    color: #252b42;
+  }
+
+  .header-buttons-row {
+    padding-top: 0px;
+    margin: 0 auto;
+  }
+
+  .header-buttons1 {
+    padding-top: 50px;
+    padding-bottom: 17px;
+  }
+
+  .button {
+    box-shadow: none;
+  }
+  .button-white {
+    box-shadow: none;
+    color: $accent;
+    border: 1.4px solid $accent;
+  }
+
+  .selection-img {
+    display: none;
+  }
+
+  .selection-img-mobile {
+    width: 418px;
+    display: block;
+    top: -220px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .line-text {
+    width: 418px;
+    margin: 0 auto;
+    top: -220px;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .text {
+    padding: 0px;
+    padding-bottom: 49px;
+    font-family: Montserrat;
+    font-size: 24px;
+  }
+
+  .create__account__row {
+    width: 418px;
+    flex-direction: column-reverse;
+    position: relative;
+    top: -300px;
+    margin: 0 auto;
+  }
+  .create__img {
+    display: none;
+  }
+  .create__img-mobile {
+    display: block;
+  }
+
+  .create__text {
+    width: 357px;
+    height: 516px;
+    position: relative;
+    bottom: -200px;
+  }
+
+  .steps {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .title {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .create-subtitle {
+    width: 257px;
+    margin: 0 auto;
+  }
+  .subtitle {
+    text-align: center;
+  }
+
+  .varieties__row {
+    margin: 0 auto;
+    width: 418px;
+    left: 0;
+    flex-direction: column;
+  }
+  .varieties__text {
+    width: 350px;
+    padding: 0;
+    position: relative;
+    top: -50px;
+  }
+  .varieties__img {
+    display: none;
+  }
+  .varieties__img-mobile {
+    display: block;
+  }
+
+  .checkout__row {
+    width: 418px;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+
+  .checkout__text {
+    width: 350px;
+    height: 459px;
+  }
+  .checkout__img {
+    display: none;
+  }
+  .checkout__img-mobile {
+    display: block;
+  }
+
+  .download-img {
+    background-image: none;
+    background: #252b42;
+    flex-direction: column;
+    width: 418px;
+    height: 564px;
+    position: relative;
+    top: -660px;
+    margin: 0 auto;
+  }
+  .download-text {
+    width: 330px;
+    margin: 0 auto;
+
+    h2 {
+      padding-top: 120px;
+    }
+    h4 {
+      height: 60px;
+      color: #bdbdbd;
+    }
+  }
+
+  .download-subtitle {
+    display: none;
+  }
+  .download-subtitle-mobile {
+    display: block;
+  }
+
+  .button-download-buy {
+    display: block;
+  }
+
+  .button-download-playstore {
+    display: none;
+  }
+  .button-download-app-store {
+    display: none;
+  }
+  .button-download-try-for-free {
+    display: block;
+  }
+
+  .button-download-white {
+    color: #fff;
+    border: 1px solid #ffffff;
+  }
+
+  .footer-row {
+    width: 433px;
+    flex-direction: column;
+    position: relative;
+    top: -660px;
+    margin: 0 auto;
+  }
+  .footer-logo {
+    display: none;
+  }
+  .footer-text-mobile {
+    display: block;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    padding-top: 8px;
+  }
+  .footer-text {
+    display: none;
+  }
+}

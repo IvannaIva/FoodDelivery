@@ -1,0 +1,19 @@
+//Base
+@import "./base/vars";
+@import "./base/base";
+@import "./base/reset";
+
+//Blocks
+
+@import "./blocks/header";
+@import "./blocks/button";
+@import "./blocks/selection";
+@import "./blocks/line";
+@import "./blocks/create-account";
+@import "./blocks/varieties";
+@import "./blocks/checkout";
+@import "./blocks/download";
+@import "./blocks/footer";
+
+@import "./media";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Mulish:wght@300;400;700&family=Poppins:wght@500;700&display=swap");

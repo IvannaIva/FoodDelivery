@@ -1,0 +1,37 @@
+.footer {
+  position: relative;
+  top: -140px;
+}
+.footer-nav {
+  height: 133px;
+  //width: 1210px;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  padding-left: 71px;
+}
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 28px;
+}
+.footer-text {
+  padding-right: 45px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #5c5c5c;
+}
+.footer-text-mobile {
+  display: none;
+}

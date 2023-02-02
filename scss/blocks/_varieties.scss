@@ -1,0 +1,16 @@
+.varieties__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: -150px;
+  left: 50px;
+}
+.varieties__text {
+  height: 280px;
+  width: 480px;
+}
+.varieties__img-mobile {
+  display: none;
+}

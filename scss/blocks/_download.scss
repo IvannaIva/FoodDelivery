@@ -1,0 +1,35 @@
+.download {
+  position: relative;
+  top: -200px;
+}
+
+.download-img {
+  //width: 1440px;
+  height: 509px;
+  background-image: url("../../img/header/Rectangle\ 47.png");
+}
+
+.download-text {
+  h2 {
+    padding-top: 145px;
+  }
+
+}
+
+.download-buttons-row {
+  padding-top: 60px;
+  display: flex;
+  column-gap: 16px;
+  justify-content: center;
+}
+
+.download-subtitle-mobile{
+  display: none;
+}
+
+.button-download-buy{
+  display: none;
+}
+.button-download-try-for-free{
+  display: none;
+}

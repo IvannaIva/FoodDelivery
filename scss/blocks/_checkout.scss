@@ -1,0 +1,17 @@
+.checkout__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: -210px;
+}
+
+.checkout__text {
+  height: 280px;
+  width: 500px;
+}
+
+.checkout__img-mobile {
+  display: none;
+}

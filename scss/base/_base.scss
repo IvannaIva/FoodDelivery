@@ -1,0 +1,57 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding: 0;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.title {
+  padding-bottom: 27px;
+  color: $title-color;
+
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: left;
+
+  &-white {
+    color: #fff;
+    text-align: center;
+  }
+}
+
+.subtitle {
+  color: $description-color;
+
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  text-align: left;
+
+  &-white {
+    color: #fff;
+    text-align: center;
+  }
+}
+
+.steps {
+  padding-bottom: 17px;
+
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: $accent;
+}
