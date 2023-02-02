@@ -267,6 +267,7 @@
     font-size: 24px;
   }
   .create__account__row {
+    padding: 0;
     width: 418px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -311,6 +312,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    position: relative;
+    top: -350px;
   }
   .varieties__text {
     width: 350px;
@@ -331,10 +334,14 @@
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     margin: 0 auto;
+    position: relative;
+    top: -700px;
   }
   .checkout__text {
     width: 350px;
     height: 459px;
+    position: relative;
+    bottom: -200px;
   }
   .checkout__img {
     display: none;

@@ -264,6 +264,7 @@
   }
 
   .create__account__row {
+    padding: 0;
     width: 418px;
     flex-direction: column-reverse;
     position: relative;
@@ -305,6 +306,8 @@
     width: 418px;
     left: 0;
     flex-direction: column;
+    position: relative;
+    top: -350px;
   }
   .varieties__text {
     width: 350px;
@@ -323,11 +326,15 @@
     width: 418px;
     flex-direction: column-reverse;
     margin: 0 auto;
+    position: relative;
+    top: -700px;
   }
 
   .checkout__text {
     width: 350px;
     height: 459px;
+    position: relative;
+    bottom: -200px;
   }
   .checkout__img {
     display: none;
